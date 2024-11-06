@@ -1,0 +1,25 @@
+{
+  "name": "ntr",
+  "displayName": "NativeTranslate Resource",
+  "description": "A simple and new minimalistic language file format",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "ntr",
+      "aliases": ["NativeTranslate-Resource", "ntr"],
+      "extensions": [".ntr"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "ntr",
+      "scopeName": "source.ntr",
+      "path": "./syntaxes/ntr.tmLanguage.json"
+    }]
+  }
+}

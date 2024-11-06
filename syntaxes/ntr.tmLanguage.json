@@ -1,0 +1,33 @@
+{
+	"name": "NativeTranslate Resource",
+	"scopeName": "source.ntr",
+	"patterns": [
+	  {
+		"match": "^@(.*)$",
+		"name": "comment.line.at-sign.ntr"
+	  },
+	  {
+		"match": "^([a-zA-Z0-9_]+)$",
+		"name": "entity.name.class.ntr"
+	  },
+	  {
+		"match": "^\\s+([a-zA-Z0-9_]+)$",
+		"name": "entity.name.function.ntr"
+	  },
+	  {
+		"match": "^\\s{2,4}([a-zA-Z0-9_]+)$",
+		"name": "entity.name.tag.ntr"
+	  },
+	  {
+		"match": "^\\s{4,6}([a-zA-Z0-9_]+)$",
+		"name": "variable.other.member.ntr"
+	  },
+	  {
+		"match": "^\\s*([a-zA-Z0-9_]+)>(.*)$",
+		"captures": {
+		  "1": { "name": "variable.other.property.ntr" },
+		  "2": { "name": "string.unquoted.ntr" }
+		}
+	  }
+	]
+  }
