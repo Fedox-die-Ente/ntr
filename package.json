@@ -2,6 +2,8 @@
   "name": "native-translate-resource",
   "displayName": "NativeTranslate Resource",
   "description": "A simple and new minimalistic language file format.",
+  "publisher": "Fedox",
+  "icon": "images/logo.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/Fedox-die-Ente/ntr-vscode"
@@ -10,7 +12,7 @@
     "name": "Fedox",
     "email": "f3dox@proton.me"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.95.0"
   },
